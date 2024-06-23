@@ -1,0 +1,11 @@
+C:\Users\Nicolas\Desktop\Aplicacion Web\UTN.WebApplication\UTN.Inc.Business\bin\Debug\net8.0\UTN.Inc.Business.deps.json
+C:\Users\Nicolas\Desktop\Aplicacion Web\UTN.WebApplication\UTN.Inc.Business\bin\Debug\net8.0\UTN.Inc.Business.dll
+C:\Users\Nicolas\Desktop\Aplicacion Web\UTN.WebApplication\UTN.Inc.Business\bin\Debug\net8.0\UTN.Inc.Business.pdb
+C:\Users\Nicolas\Desktop\Aplicacion Web\UTN.WebApplication\UTN.Inc.Business\obj\Debug\net8.0\UTN.Inc.Business.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Nicolas\Desktop\Aplicacion Web\UTN.WebApplication\UTN.Inc.Business\obj\Debug\net8.0\UTN.Inc.Business.AssemblyInfoInputs.cache
+C:\Users\Nicolas\Desktop\Aplicacion Web\UTN.WebApplication\UTN.Inc.Business\obj\Debug\net8.0\UTN.Inc.Business.AssemblyInfo.cs
+C:\Users\Nicolas\Desktop\Aplicacion Web\UTN.WebApplication\UTN.Inc.Business\obj\Debug\net8.0\UTN.Inc.Business.csproj.CoreCompileInputs.cache
+C:\Users\Nicolas\Desktop\Aplicacion Web\UTN.WebApplication\UTN.Inc.Business\obj\Debug\net8.0\UTN.Inc.Business.dll
+C:\Users\Nicolas\Desktop\Aplicacion Web\UTN.WebApplication\UTN.Inc.Business\obj\Debug\net8.0\refint\UTN.Inc.Business.dll
+C:\Users\Nicolas\Desktop\Aplicacion Web\UTN.WebApplication\UTN.Inc.Business\obj\Debug\net8.0\UTN.Inc.Business.pdb
+C:\Users\Nicolas\Desktop\Aplicacion Web\UTN.WebApplication\UTN.Inc.Business\obj\Debug\net8.0\ref\UTN.Inc.Business.dll

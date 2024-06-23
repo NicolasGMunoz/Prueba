@@ -1,0 +1,29 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+
+<div class="container">
+    <br />
+    <h2>Iniciar Sesión</h2>
+    <br />
+    <br />
+    <form id="loginForm">
+
+        <div class="form-group">
+            <input type="text" id="username" name="username" placeholder="Usuario" required>
+        </div>
+        <br />
+        <div class="form-group">
+            <input type="password" id="password" name="password" placeholder="Contraseña" required>
+        </div>
+        <br />
+        <button type="submit">@Html.ActionLink("Ingresar", "Profile", "Home")</button>
+    </form>
+    
+</div>
+
+
+
+<link rel="stylesheet" href="~/css/home.css" />
+<script src="~/js/home.js"></script>
