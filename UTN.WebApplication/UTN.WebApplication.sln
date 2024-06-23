@@ -9,7 +9,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UTN.Inc.Business", "UTN.Inc
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UTN.Inc.Data", "UTN.Inc.Data\UTN.Inc.Data.csproj", "{3D1590B6-0896-4F5E-B533-1195D72BEF2D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UTN.Inc.Entities", "UTN.Inc.Entities\UTN.Inc.Entities.csproj", "{2BEC2111-7D27-4431-ABDB-70D04A378CDB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UTN.Inc.Entities", "UTN.Inc.Entities\UTN.Inc.Entities.csproj", "{2BEC2111-7D27-4431-ABDB-70D04A378CDB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -1,6 +1,9 @@
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 using UTN.WebApplication.Models;
+using UTN.Inc.Data;
+using UTN.Inc.Business;
+using UTN.Inc.Entities;
 
 namespace UTN.WebApplication.Controllers
 {
@@ -22,10 +25,15 @@ namespace UTN.WebApplication.Controllers
             return View();
         }
 
-        [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
-        public IActionResult Error()
+
+        public JsonResult GetUsers()
         {
-            return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
+            List<Usuario> list = new List<Usuario>();
+            list = new UserBussines().GetUsuarios();
+
+            return Json(list);
         }
+
+
     }
 }

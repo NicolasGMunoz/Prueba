@@ -16,7 +16,7 @@ namespace UTN.Inc.Entities
 
         public bool? Habilitado { get; set; }
 
-        public virtual Categoria Categoria { get; set; }
+        public virtual required Categoria Categoria { get; set; }
 
         public virtual ICollection<Compra> Compras { get; set; } = new List<Compra>();
 
