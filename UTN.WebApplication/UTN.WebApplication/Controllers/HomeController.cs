@@ -1,19 +1,21 @@
 using Microsoft.AspNetCore.Mvc;
-using System.Diagnostics;
-using UTN.WebApplication.Models;
-using UTN.Inc.Data;
 using UTN.Inc.Business;
+using UTN.Inc.Data.Repository;
 using UTN.Inc.Entities;
 
 namespace UTN.WebApplication.Controllers
 {
     public class HomeController : Controller
-    {
-        private readonly ILogger<HomeController> _logger;
 
-        public HomeController(ILogger<HomeController> logger)
+    {
+
+        
+        private readonly UserBussines _repo;
+
+        public HomeController(UserBussines context)
         {
-            _logger = logger;
+       
+            _repo = context;
         }
 
         public IActionResult Index()
@@ -25,11 +27,15 @@ namespace UTN.WebApplication.Controllers
             return View();
         }
 
+  
+           
+    
+
 
         public JsonResult GetUsers()
         {
-            List<Usuario> list = new List<Usuario>();
-            list = new UserBussines().GetUsuarios();
+            List<Usuario> list = _repo.ObtenerUsuario();
+            
 
             return Json(list);
         }

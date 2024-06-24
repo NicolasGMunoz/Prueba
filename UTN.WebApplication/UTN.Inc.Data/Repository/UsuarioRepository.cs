@@ -9,9 +9,6 @@ namespace UTN.Inc.Data.Repository
     {
         private readonly UtnincContext _userRepo;
 
-        public UsuarioRepository()
-        {
-        }
 
         public UsuarioRepository(UtnincContext context)
         {

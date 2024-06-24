@@ -1,16 +1,20 @@
 ﻿using UTN.Inc.Entities;
-using UTN.Inc.Data;
 using UTN.Inc.Data.Repository;
 
 namespace UTN.Inc.Business
 {
     public class UserBussines
     {
-        private UsuarioRepository objCapaDato = new UsuarioRepository();
+        private readonly UsuarioRepository _usuarioRepo;
 
-        public List<Usuario> GetUsuarios()
+        public UserBussines(UsuarioRepository context)
         {
-            return objCapaDato.GetAll();
+            _usuarioRepo = context;
+        }
+
+        public List<Usuario> ObtenerUsuario()
+        {
+          return _usuarioRepo.GetAll();
         }
     }
 }
